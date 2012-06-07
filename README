@@ -1,0 +1,20 @@
+
+dbjava, decompiler of bytecodes of the jvm
+
+To Compile:
+    cabal install
+    
+    or
+
+    runhaskell Setup.hs configure
+    runhaskell Setup.hs build
+    runhaskell Setup.hs install
+
+To Run:
+
+    dbjava namefile.class
+
+You can also see the examples con src.
+
+Carlos Gomez, carliros.g@gmail.com
+
